@@ -98,15 +98,15 @@ try:
                 axindex = 0
                 print('x_avg_read: ' +
                       str(avg_from_array(x_accel_avg)) +
-                      ' x_avg_offset: ' +
+                      ' x_avg_accel_offset: ' +
                       str(avg_from_array(x_accel_offset_avg)))
                 print('y_avg_read: ' +
                       str(avg_from_array(y_accel_avg)) +
-                      ' y_avg_offset: ' +
+                      ' y_avg_accel_offset: ' +
                       str(avg_from_array(y_accel_offset_avg)))
                 print('z_avg_read: ' +
                       str(avg_from_array(z_accel_avg)) +
-                      ' z_avg_offset: ' +
+                      ' z_avg_accel_offset: ' +
                       str(avg_from_array(z_accel_offset_avg)))
 
         if piday.check_time():
@@ -147,15 +147,15 @@ try:
                 gxindex = 0
                 print('x_avg_read: ' +
                       str(avg_from_array(x_gyro_avg)) +
-                      ' x_avg_offset: ' +
+                      ' x_avg_gyro_offset: ' +
                       str(avg_from_array(x_gyro_offset_avg)))
                 print('y_avg_read: ' +
                       str(avg_from_array(y_gyro_avg)) +
-                      ' y_avg_offset: ' +
+                      ' y_avg_gyro_offset: ' +
                       str(avg_from_array(y_gyro_offset_avg)))
                 print('z_avg_read: ' +
                       str(avg_from_array(z_gyro_avg)) +
-                      ' z_avg_offset: ' +
+                      ' z_avg_gyro_offset: ' +
                       str(avg_from_array(z_gyro_offset_avg)))
 
         if pidgy.check_time():
